@@ -13,4 +13,4 @@ test:
 
 fe_train:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/fe_train.csv
+  filepath: data/02_intermediate/encoded_train.csv
