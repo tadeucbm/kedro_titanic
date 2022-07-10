@@ -14,3 +14,7 @@ test:
 fe_train:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/encoded_train.csv
+
+model_classifier:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/classifier.pickle
