@@ -31,3 +31,5 @@ def encoding_dataset(df: pd.DataFrame):
     df = pd.get_dummies(df, 'e_', columns=['Embarked'], drop_first=True)
 
     return df
+
+def 
